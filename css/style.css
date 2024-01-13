@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tela_de_exibicao {
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: 0.5s;
+}
+
+.slider img {
+    height: 100%;
+    width: 100%;
+}
+
+.botoes {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-align: center;
+    color: black;
+    margin-inline: 10px; 
+}
+
+i {
+    font-size: 50px;
+}
